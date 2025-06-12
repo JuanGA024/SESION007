@@ -1,0 +1,143 @@
+
+/*hahahah*/
+:root{
+    --color-principal:#28ec64;
+    --color-secundario:#faaa28 ;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: rebeccapurple;background-color: mediumaquamarine;
+}
+
+p{
+    color: darkblue;background-color: rgb(174, 224, 255);
+}
+
+body{
+    background-color: aquamarine;
+    background-image: url("/Sesion7/ARCHIVOS CSS/IMAGENES/FONDOO.gif");
+    background-size: cover;
+
+    background-repeat: repeat-y;
+}
+
+.xddd{
+    color: darkred;
+
+    font-weight: 9000;
+}
+
+#nombre1{
+    color: blue;
+    
+    font-weight: 500;
+}
+
+.LMAO{
+    color: red;
+    color: #00ff00;
+    color: rgb(0, 0, 255);
+    color: rgba(255, 0, 0, 0.5);
+    color: hsl(10%, 100%, 50%);
+    color: hsla(hue, saturation, lightness, alpha);
+    background-color: aquamarine;
+    font-weight: 50;
+    font-family:"Rubik Bubbles", system-ui
+}
+
+.parrafo{
+    color: var(--color-principal);
+    background-color: crimson;
+    font-weight: 100;
+    
+}
+
+.titulo-principal{
+    background-color:lightblue;
+    color: var(--color-secundario);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.titulo-secundario{
+    color: tomato;
+}
+
+.seccion{
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.parrafo3{
+    color: azure;
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+.Parrafo-decorado{
+    text-decoration: underline var(--color-principal);
+}
+
+.margen{
+    background-color: darkcyan;
+}
+
+.margen .caja{
+    background-color: var(--color-secundario);
+    width: 15em;
+    border: 1px solid aquamarine (--color-secundario);
+    text-align: center;
+}
+.margen .caja .padding{
+    /*recomendado para ahorrar texto*/
+    padding: 20px 15px;
+/*recomendado para especificar espacios de manera individual*/
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    background-color: rgb(88, 214, 72);
+}
+
+.margen .caja .margin{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px 15px;
+    margin: 30px 15px;
+}
+.seccion1{
+    background-color: rgb(238, 188, 248);
+}
+.seccion1 .bloque{
+    display: block;
+    background-color: rgb(227, 89, 107);
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+}
+.seccion1 .en-linea{
+    display: inline;
+    background-color: aquamarine;
+    color: crimson;
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+}
+
+.seccion1 .inline-block{
+    display: inline-block;
+    background-color: aquamarine;
+    color: crimson;
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+}
+
+.seccion1 .oculto{
+    display: none;
+}
