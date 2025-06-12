@@ -20,7 +20,7 @@ p{
 
 body{
     background-color: aquamarine;
-    background-image: url("/Sesion7/ARCHIVOS CSS/IMAGENES/FONDOO.gif");
+    background-image: url("./IMAGENES/FONDOO.gif");
     background-size: cover;
 
     background-repeat: repeat-y;
